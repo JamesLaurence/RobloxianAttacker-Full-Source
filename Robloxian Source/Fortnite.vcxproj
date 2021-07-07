@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="no.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1ColorRGBA.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1ColorRGBAInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTarget.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTargetInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1Factory.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FactoryInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FontWrapper.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FontWrapperInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlas.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlasInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphProvider.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphProviderInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStates.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStatesInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphSheet.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphSheetInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawer.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawerInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1StateSaver.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextGeometry.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextGeometryInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextRenderer.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextRendererInterface.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\FW1FontWrapper.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\FW1Precompiled.cpp" />
+    <ClCompile Include="no_renderer\no_gui\no_gui.cpp" />
+    <ClCompile Include="no_renderer\no_gui\no_state_saver.cpp" />
+    <ClCompile Include="no_renderer\no_menu\no_menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="no_loop.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="no_inlinesyscalls.h" />
+    <ClInclude Include="no_scanner.h" />
+    <ClInclude Include="no_define.h" />
+    <ClInclude Include="no_hook\no_hook.h" />
+    <ClInclude Include="no_imports.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1ColorRGBA.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTarget.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1Factory.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1FontWrapper.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlas.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphProvider.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStates.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphSheet.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawer.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1Object.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1StateSaver.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1TextGeometry.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1TextRenderer.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1CompileSettings.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1FontWrapper.h" />
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1Precompiled.h" />
+    <ClInclude Include="no_renderer\no_gui\no_gui.h" />
+    <ClInclude Include="no_renderer\no_gui\no_shaders.h" />
+    <ClInclude Include="no_renderer\no_gui\no_state_saver.h" />
+    <ClInclude Include="no_renderer\no_menu\no_menu.h" />
+    <ClInclude Include="UnrealClass.h" />
+    <ClInclude Include="UnrealStructs.h" />
+    <ClInclude Include="no_winapi.h" />
+    <ClInclude Include="xor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="GetCursorPos.asm" />
+    <MASM Include="NtUserGetAsyncKeyState.asm" />
+    <MASM Include="NtUserSendInput.asm" />
+    <MASM Include="RetSpoofStub.asm" />
+    <MASM Include="ScreenToClient.asm" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e28e7acb-2373-407c-8bbf-0c6ac5792883}</ProjectGuid>
+    <RootNamespace>UnrealEngineCheat</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>.\ImGui;.\DirectX\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\DirectX\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>./;$(IncludePath)</IncludePath>
+    <LibraryPath>.\DirectX\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>nice_dll_you_got_there</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;UNREALENGINECHEAT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;UNREALENGINECHEAT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;UNREALENGINECHEAT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;UNREALENGINECHEAT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

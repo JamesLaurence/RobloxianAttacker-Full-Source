@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7a378a44-df6a-481e-bec0-c787f1040a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assembly">
+      <UniqueIdentifier>{19f23d06-269b-4372-abb8-5dae48109f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\no_hook">
+      <UniqueIdentifier>{845dbb29-b3e2-4649-8c64-caee9f44c485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\no_renderer">
+      <UniqueIdentifier>{8189dbf9-b7ca-493a-b0f5-3697d1e88585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{3c09b8b6-e62a-48c4-9c38-cf73cc9cba31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\no_renderer\no_menu">
+      <UniqueIdentifier>{0b139672-38c5-4836-997a-8b08802c11a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_imports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_winapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_hook\no_hook.h">
+      <Filter>Header Files\no_hook</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1ColorRGBA.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTarget.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1Factory.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1FontWrapper.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlas.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphProvider.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStates.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphSheet.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawer.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1Object.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1StateSaver.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1TextGeometry.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\CFW1TextRenderer.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1CompileSettings.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1FontWrapper.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\FW1FontWrapper\FW1Precompiled.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\no_gui\no_gui.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\no_gui\no_shaders.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\no_gui\no_state_saver.h">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="no_inlinesyscalls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="no_loop.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="no_renderer\no_menu\no_menu.h">
+      <Filter>Header Files\no_renderer\no_menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="NtUserGetAsyncKeyState.asm">
+      <Filter>Header Files\Assembly</Filter>
+    </MASM>
+    <MASM Include="NtUserSendInput.asm">
+      <Filter>Header Files\Assembly</Filter>
+    </MASM>
+    <MASM Include="RetSpoofStub.asm">
+      <Filter>Header Files\Assembly</Filter>
+    </MASM>
+    <MASM Include="ScreenToClient.asm">
+      <Filter>Header Files\Assembly</Filter>
+    </MASM>
+    <MASM Include="GetCursorPos.asm">
+      <Filter>Header Files\Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="no.cpp" />
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1ColorRGBA.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1ColorRGBAInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTarget.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1Factory.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FactoryInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FontWrapper.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1FontWrapperInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlas.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphAtlasInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphProvider.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphProviderInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStates.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphSheet.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphSheetInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawer.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1StateSaver.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextGeometry.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextGeometryInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextRenderer.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\CFW1TextRendererInterface.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\FW1FontWrapper.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\FW1FontWrapper\FW1Precompiled.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\no_gui\no_gui.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\no_gui\no_state_saver.cpp">
+      <Filter>Header Files\no_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="no_renderer\no_menu\no_menu.cpp">
+      <Filter>Header Files\no_renderer\no_menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
